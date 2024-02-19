@@ -1,0 +1,35 @@
+import java.util.Scanner;//input
+public class MarvieMiranda {
+
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);//input
+        
+        System.out.println("Performance Task");//ouput
+        System.out.println("Enter 1st activity:");//ouput
+        int x = input.nextInt();
+        System.out.println("Enter 2nd activity:");//output
+        int y = input.nextInt();
+        System.out.println("Enter 3rd activity:");//output
+        int z = input.nextInt(); 
+        System.out.println("Enter 4th activity:");//output
+        int a = input.nextInt();  
+        System.out.println("Enter 5th activity:");//output
+        int b = input.nextInt(); 
+        System.out.println("Enter 6th activity:");//output
+        int c = input.nextInt(); 
+        System.out.println("Enter 7th activity:");//output
+        int d = input.nextInt(); 
+        
+        
+        
+        int sum;
+        sum = x + y + z + a + b + c + d;
+        double per;
+        per = sum *0.60;
+        int ave;
+        ave = sum / 7;
+        
+        System.out.println("Percentage is:" + per);//output
+        System.out.println("Average is :" + ave);//output
+    }
+}
